@@ -94,6 +94,20 @@ Update train and evalute python code and dvc.yaml
   166  touch report/scores.json
 
   update metrics in dvc.yaml 
-  
 
+
+  173  dvc params diff
+
+  174  git add . && git commit -m "metrics"
+  
+  175  git push -u origin main
+  
+  make changes in params values to regenerate new scores 
+  
+  177  dvc params diff
+  
+  178  dvc repro
+  
+  179  dvc params diff
+  
 
