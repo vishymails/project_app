@@ -68,6 +68,15 @@ delete generated file under data/processed folder
  
  dvc repro
 
+ 154  touch src/train_and_evaluate.py
+
+  156  python src/train_and_evaluate.py 
+ 
+  157  git add . && git commit -m "train and evaluate"
+ 
+  158  git push -u origin main
+ 
 
 
  
+
