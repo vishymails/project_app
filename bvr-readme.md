@@ -77,6 +77,23 @@ delete generated file under data/processed folder
   158  git push -u origin main
  
 
+Update train and evalute python code and dvc.yaml
 
- 
+
+ git add . && git commit -m "job lib created"
+  
+  169  git push -u origin main
+
+
+163  dvc repro
+
+  164  mkdir report
+
+  165  touch report/params.json
+
+  166  touch report/scores.json
+
+  update metrics in dvc.yaml 
+  
+
 
