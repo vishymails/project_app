@@ -158,3 +158,19 @@ Update train and evalute python code and dvc.yaml
   207  pytest -v
   
   208  tox
+
+210  git add . && git commit -m "tox testing"
+  
+  211  git push -u origin main
+  
+   212  tox
+  
+  213  touch setup.py
+  
+  214  pip install -e .
+  
+  215  pip freeze
+  
+  216  python setup.py sdist bdist_wheel
+  
+  217  tox
