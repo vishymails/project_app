@@ -47,4 +47,12 @@ git add . && git commit -m "update readme.md"
   
   126  git push -u origin main
 
+128  touch src/load_data.py
 
+  130  python src/load_data.py
+
+  132  dvc repro
+
+  133  touch src/split_data.py
+
+  134  python src/split_data.py
