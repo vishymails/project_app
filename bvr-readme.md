@@ -133,3 +133,28 @@ Update train and evalute python code and dvc.yaml
   191  dvc repro
   
   192  dvc metrics diff
+
+
+
+  TOX testing framework 
+
+   198  conda activate wineq
+   199  tox
+   
+   200  touch tox.ini
+   
+   201  pytest -v
+   
+   202  mkdir tests
+   
+   203  touch tests/conftest.py tests/test_config.py
+  
+  204  touch tests/__init__.py
+  
+  205  pytest -v
+  
+  206  pytest -v
+  
+  207  pytest -v
+  
+  208  tox
