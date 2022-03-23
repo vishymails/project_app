@@ -103,7 +103,7 @@ Update train and evalute python code and dvc.yaml
   175  git push -u origin main
   
   make changes in params values to regenerate new scores 
-  
+
   177  dvc params diff
   
   178  dvc repro
@@ -111,3 +111,25 @@ Update train and evalute python code and dvc.yaml
   179  dvc params diff
   
 
+
+181  git add . && git commit -m "metrics"
+  
+  182  git push -u origin main
+    
+    84  dvc metrics show
+  
+  185  dvc metrics diff
+  
+  186  git add . && git commit -m "metrics"
+  
+  187  git push -u origin main
+  
+  188  dvc metrics diff
+  
+  189  dvc repro
+  
+  190  dvc metrics diff
+  
+  191  dvc repro
+  
+  192  dvc metrics diff
