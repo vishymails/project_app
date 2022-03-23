@@ -38,3 +38,13 @@ git add . && git commit -m "update readme.md"
   155  git branch -M main
  
   156  git push -u origin main
+
+
+
+ 124  python src/get_data.py 
+  
+  125  git add . && git commit -m "added get_data.py"
+  
+  126  git push -u origin main
+
+
