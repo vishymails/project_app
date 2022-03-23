@@ -56,3 +56,18 @@ git add . && git commit -m "update readme.md"
   133  touch src/split_data.py
 
   134  python src/split_data.py
+
+
+delete generated file under data/processed folder 
+
+ 144  git add . && git commit -m "added split_data.py"
+
+  145  git commit -m "stop tracking data/processed/train_winequality.csv" 
+ 
+  146  git push -u origin main
+ 
+ dvc repro
+
+
+
+ 
