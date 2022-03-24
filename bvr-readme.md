@@ -229,3 +229,8 @@ Update train and evalute python code and dvc.yaml
   
   258  touch webapp/templates/base.html
 
+
+append all file contents 
+
+
+
