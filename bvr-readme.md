@@ -177,4 +177,9 @@ Update train and evalute python code and dvc.yaml
 
   tox -r (THIS WILL REBUILD TOX FROM SCRATCH - DOWNLOADS ALL DEPENDENCIES ONCE AGAIN)
 
+
+  pip install jupyterlab
+
+  jupyter-lab notebooks/
+
   
