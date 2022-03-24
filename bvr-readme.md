@@ -182,4 +182,7 @@ Update train and evalute python code and dvc.yaml
 
   jupyter-lab notebooks/
 
+  create notebook file and generate schema_in.json
+
+
   
